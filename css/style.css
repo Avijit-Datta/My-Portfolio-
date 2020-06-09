@@ -1,0 +1,672 @@
+/* Created by Avijit Datta */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  font-weight: lighter;
+  color: lime;
+  scroll-behaviour: smooth;
+}
+
+marquee {
+  font-size: 20px;
+  background-color: lime;
+  color: black;
+  font-weight: bold;
+}
+
+
+.upper{
+  
+  background-color: black;
+  color: lime;
+  transition: all 1s ease-in;
+  
+}
+
+.upper:hover{
+  
+  background-color: lime;
+  color: black;
+  font-weight: bold;
+  box-shadow: 5px 5px 30px lime;
+  
+}
+
+.cert{
+  
+  margin-top: 10px;
+  color: lime;
+  border: 1px solid lime;
+  margin: 20px;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: lighter;
+  background-color: black;
+}
+
+#about{
+  
+  box-shadow: inset 0px 0px 15px lime;
+  /**5px 5px 15px lime,
+  inset 0px 0px 0px lime;**/
+  margin: 30px;
+  transition: all 1s ease-in;
+  
+}
+
+#about:hover{
+  
+  background-color: lime;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 0px 15px lime;
+  
+}
+
+.sub {
+  border: 1px solid black;
+  box-shadow: 3px 3px 20px black;
+  width: 150px;
+  height: 150px;
+  transition: 0.25s all ease-in;
+  
+}
+
+.sub:hover{
+  
+  width: 100%;
+  height: 100%;
+  
+}
+
+#cer{
+  
+  text-decoration: none;
+  
+}
+
+
+.code{
+  
+  color: lime;
+  border: 1px solid black;
+  margin: 20px;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: lighter;
+  background-color: black;
+  box-shadow: inset 0px 0px 15px lime;
+  transition: all 1s ease-in;
+  
+}
+
+.code:hover{
+  
+  background-color: lime;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+  box-shadow: 5px 5px 30px lime;
+  text-decoration: underline;
+  
+}
+
+
+.au {
+  font-weight: lighter;
+  padding: 10px;
+}
+
+progress {
+  width: 85%;
+  height: 20px;
+  color: #3fb6b2;
+  background-color: lime;
+  border: 1px solid lime;
+}
+
+.prgrss{
+  
+  width:70%;
+  margin-left: 20%;
+  
+  
+}
+progress::-webkit-progress-bar {
+  background-color: black;
+  border: 1px solid black;
+  box-shadow: 5px 5px 30px black;
+}
+
+progress::-webkit-progress-value {
+  background-color: lime;
+}
+
+progress::-moz-progress-bar {
+  color: #3fb6b2;
+  background: black;
+}
+
+hr {
+  border: 1px solid lime;
+}
+
+.nav {
+  width: 100%;
+  height: 120px;
+  cursor: pointer;
+  background-color: black;
+  border: 2px solid lime;
+  color: lime;
+  overflow:invisible;
+  height: 25px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.border {
+  color: lime;
+  border: 1px solid lime;
+  margin: 20px;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: lighter;
+  background-color: black;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid lime;
+  background-color: black;
+  width: 75%;
+  height: 40px;
+  color: lime;
+  box-shadow: 3px 3px 30px black;
+
+}
+
+.btn a {
+  text-decoration: none;
+  color: lime;
+
+}
+
+.btn:hover {
+  border: 1px solid red;
+  color: red;
+
+}
+
+.section {
+  width: 100%;
+  position: relative;
+  display: none;
+  border: 1px solid lime;
+
+}
+
+.section a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.section a :hover {
+  background: green;
+}
+
+ul li {
+  text-align: left;
+}
+
+.img {
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+  height: 245px;
+  border-radius: 50%;
+  border: 1px solid lime;
+  box-shadow: 3px 3px 30px black;
+  background-attachment: cover;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  border: 1px solid lime;
+  background-color: black;
+  color: lime;
+  border-left-color: black;
+  border-right-color: black;
+  border-top-color: black;
+  width: 95%;
+}
+
+.submit {
+  width: 96%;
+  height: 40px;
+  border: 1px solid lime;
+  color: black;
+  background-color: lime;
+}
+
+.submit:hover {
+  width: 96%;
+  height: 40px;
+  border: 1px solid lime;
+  color: black;
+  background-color: white;
+}
+
+.input {
+  width: 95%;
+  border: 1px solid lime;
+  height: 50px;
+  color: lime;
+  border: 1px solid black;
+  box-shadow: 3px 3px 15px black;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.input:hover {
+  width: 95%;
+  border: 1px solid red;
+  height: 50px;
+  color: lime;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.sit {
+  width: 96%;
+  height: 40px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 15px black;
+  color: black;
+  background-color: lime;
+}
+
+.sit:hover {
+  width: 96%;
+  height: 40px;
+  border: 1px solid lime;
+  color: black;
+  background-color: white;
+}
+
+#logo1 {
+  color: lime;
+  border: 0px solid lime;
+  background-color: black;
+  font-size: 60px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#logo1:hover {
+  color: blue;
+  border: 0px solid lime;
+  background-color: black;
+  font-size: 60px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#logo2 {
+  color: lime;
+  border: 0px solid lime;
+  background-color: black;
+  font-size: 60px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#logo2:hover {
+  color: red;
+  border: 0px solid lime;
+  background-color: black;
+  font-size: 60px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#logo3 {
+  color: lime;
+  border: 0px solid lime;
+  background-color: black;
+  font-size: 60px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#logo3:hover {
+  color: skyblue;
+  border: 0px solid lime;
+  background-color: black;
+  font-size: 60px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.mess {
+  width: 95%;
+  border: 1px solid black;
+  height: 100px;
+  color: lime;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 3px 15px black;
+}
+
+.mess:hover {
+  width: 95%;
+  border: 1px solid red;
+  height: 100px;
+  color: lime;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10px;
+  margin: 10px;
+}
+
+.result {
+  text-align: center;
+}
+
+
+.email{
+  
+  font-size: 30px;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 5px;
+  text-justify: center;
+  margin-top: 25px;
+  transition: all 1s ease-in;
+  background-color: black;
+  color:lime;
+  box-shadow: 3px 3px 15px black;
+  
+}
+
+.cm{
+  
+  background-color: lime;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  border: 1px solid black;
+  border-style: dashed;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 3px 3px 20px black;
+  border-radius: 10px;
+  transform: all 1sec;
+  
+}
+
+.cm:hover{
+  
+  background-color: #D0FF18;
+  color: black;
+  
+}
+/** sidebar editing starts from here**/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.sidebar {
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: black;
+  color: lime;
+  transition: all .5s ease;
+}
+
+.sidebar header {
+  font-size: 22px;
+  font-weight: bolder;
+  color: black;
+  line-height: 70px;
+  text-align: center;
+  background: #CBE82A;
+  border: 3px solid white;
+  user-select: none;
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  transition: .4s;
+}
+
+ul li:hover a {
+  padding-left: 50px;
+  color: black;
+  background-color: lime;
+  font-weight: bold;
+}
+
+.sidebar ul a i {
+  margin-right: 16px;
+}
+
+#check {
+  display: none;
+}
+
+label #btn,
+label #cancel {
+  position: fixed;
+  color: lime;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #676476;
+}
+
+label #btn {
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: lime;
+  padding: 6px 12px;
+  transition: all .5s;
+  background-color: #676476;
+}
+
+label #cancel {
+  z-index: 1111;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  color: black;
+  padding: 9px;
+  transition: all .5s ease;
+}
+
+#check:checked~.sidebar {
+  left: 0;
+}
+
+#check:checked~label #btn {
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#check:checked~label #cancel {
+  left: 195px;
+}
+
+#check:checked~section {
+  margin-left: 250px;
+}
+
+/**section {
+  background: url(bg.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all .5s;
+}**/
+
+/**Org Code**/
+
+.stark{
+  
+  border: 1px solid lime;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  transition: all 1s ease-in;
+  box-shadow: inset 0px 0px 15px lime;
+  
+}
+
+.stark:hover{
+  
+   background-color: lime;
+   color: black;
+   font-weight: bold;
+   box-shadow: 0px 0px 15px lime;
+  
+}
+
+
+.org{
+  
+  margin: 5px;
+  
+}
+.stark-img{
+  
+  border: 1px solid red;
+  margin: 10px;
+  
+}
+
+
+.us{
+  
+  font-size: 20px;
+  background-color: black;
+  border: 1px solid red;
+  border-style: dashed;
+  margin-top: 5px;
+  padding: 10px;
+  color: lime;
+  border-radius: 10px;
+  transition: all 1s ease-in;
+  box-shadow: 3px 3px 15px black;
+  
+}
+
+.us:hover{
+  
+  background-color: lime;
+  color: black;
+  
+}
+
+/**footer social link**/
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: black;
+  width: 100%;
+  border-radius: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.i-li {
+  position: relative;
+  list-style: none;
+  height: 70px;
+  width: 70px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background: lime;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: -3px -3px 7px #ffffff73,
+    3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.i-attr {
+  line-height: 70px;
+  font-size: 27px;
+  color: black;
+}
+
+.shadow-2 a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  background: black;
+  font-size: 24px;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.i-li:nth-child(1).fill-color a {
+  color: #4267B2;
+}
+
+.i-li:nth-child(2).fill-color a {
+  color: #1DA1F2;
+}
+
+.i-li:nth-child(3).fill-color a {
+  color: #E1306C;
+}
+
+.i-li:nth-child(4).fill-color a {
+  color: #2867B2;
+}
+
+.i-li:nth-child(5).fill-color a {
+  color: #333;
+}
+
